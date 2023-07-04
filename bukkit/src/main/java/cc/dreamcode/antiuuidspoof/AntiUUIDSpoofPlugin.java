@@ -1,5 +1,6 @@
 package cc.dreamcode.antiuuidspoof;
 
+import cc.dreamcode.antiuuidspoof.controller.PlayerJoinController;
 import cc.dreamcode.command.bukkit.BukkitCommandProvider;
 import cc.dreamcode.menu.bukkit.BukkitMenuProvider;
 import cc.dreamcode.menu.bukkit.okaeri.MenuBuilderSerdes;
@@ -63,6 +64,8 @@ public final class AntiUUIDSpoofPlugin extends DreamBukkitPlatform implements Dr
             componentManager.registerComponent(DocumentPersistence.class);
             componentManager.registerComponent(UserRepository.class);
         });
+
+        componentManager.registerComponent(PlayerJoinController.class);
     }
 
     @Override
