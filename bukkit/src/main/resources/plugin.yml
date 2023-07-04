@@ -1,8 +1,8 @@
-main: "cc.dreamcode.template.BukkitTemplatePlugin"
+main: "cc.dreamcode.antiuuidSpoof.AntiUUIDSpoofPlugin"
 version: "1.0-InDEV"
-name: "Dream-Template"
-description: "Dream-Template written by dreamcode.cc"
+name: "Dream-AntiUUIDSpoof"
+description: "Dream-AntiUUIDSpoof written by dreamcode.cc"
 website: "https://dreamcode.cc"
-author: "author"
-prefix: "Dream-Template-Bukkit"
+author: "Nightusio"
+prefix: "Dream-AntiUUIDSpoof"
 api-version: 1.13
