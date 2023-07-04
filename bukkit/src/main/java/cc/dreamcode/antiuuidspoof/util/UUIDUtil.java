@@ -8,10 +8,9 @@ import org.bukkit.entity.Player;
 import java.util.UUID;
 
 @UtilityClass
-@Getter
 public class UUIDUtil {
 
-    public UUID generateUUIDFromName(String name) {
+    public static UUID generateUUIDFromName(String name) {
         return UUID.nameUUIDFromBytes(("OfflinePlayer:" + name).getBytes());
     }
 
