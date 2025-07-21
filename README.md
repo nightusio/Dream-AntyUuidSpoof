@@ -1,9 +1,6 @@
-Working with template:
+dream-antyuuidspoof:
 -----
-Clone this repo to your account, rename package name, then by pressing ``CTRL + SHIFT + R`` change all variables to your plugin name. (Template --> PluginName).
-
-Finally, remove all **unnecessary** template functions.
-(support mc versions can easily removed by deleting implement in settings.gradle)
+Some old minecraft plugin i probably didn't even finished, making my old repositories public.
 
 Build to jar by ``shadowJar`` gradle task.
 
